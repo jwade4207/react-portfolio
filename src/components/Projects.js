@@ -9,47 +9,40 @@ import React from 'react'
 function Projects() {
     const projectData = [
         {
-            name: 'State of the Art',
-            description: 'This full stack web application allows users to search for and locate works of art.',
+            name: 'Pic-A-Flick',
+            description: 'This full stack web application allows users to search for and movies.',
             img: (''),
-            github: 'https://github.com/CodyConck/ArtFiles2',
-            deployed: 'https://state-of-art.herokuapp.com/'
+            github: 'https://github.com/jwade4207.github.io/Pic-A-Flick/',
+            deployed: ' https://pic-a-flick345567.herokuapp.com/'
         },
         {
-            name: 'Brewed Force',
-            description: 'A website designed for globe-trotting beer enthusiasts that matches users with breweries in new cities.',
+            name: 'Easy Link',
+            description: 'A website designed to connect people with locations in new cities.',
             img: (''),
-            github: 'https://github.com/CodyConck/globe-trotting-and-bar-hopping',
-            deployed: 'https://takes101.github.io/globe-trotting-and-bar-hopping/'
+            github: 'https://github.com/jwade4207.github.io/Group-project-1/',
+            deployed: 'https://ryanblessing.github.io/Group-project-1/'
         },
         {
-            name: 'React-Task-Tracker2021',
-            description: 'A simple React based task organizer, built as an exercise to better understand the React framework. This was based off of a YouTube tutorial from Traversy Media',
+            name: 'Tech Blog',
+            description: 'This is a website that allows users to post and update blogs about the tech world. It also allows them to read and interact with other users blogs on the same site',
             img: (''),
-            github: 'https://github.com/CodyConck/React-Task-Tracker2021',
-            deployed: 'https://codyconck.github.io/React-Task-Tracker2021/'
+            github: 'https://github.com/jwade4207.github.io/Tech-Blog/',
+            deployed: 'https://tech-blog-5587.herokuapp.com/'
         },
         {
-            name: 'File-Uploader',
-            description: 'Front End of a file uploader built with react. Clone repo, install necessary dependencies, run "npm run dev"!',
+            name: 'Budget Tracker',
+            description: ' I updated an existing web app to give it offline functionality. The user can add or deduct expenses to their budget with or without being online. If the user enters transactions offline, the transaction will be updated when they connect to the internet once again.',
             img: (''),
-            github: 'https://github.com/CodyConck/file-uploader',
-            deployed: ''
+            github: 'https://github.com/jwade4207.github.io/Budget-Tracker-PWA/',
+            deployed: 'https://budget-tracker1000-pwa.herokuapp.com/'
         },
         {
-            name: 'Team Profile Generator',
-            description: 'Command line application that uses Node.js to prompt a user to enter in information about their work team members. Once all prompts are answered, an HTML is generated using the user input to populate cards for each employees position.',
+            name: 'Book Search Engine',
+            description: 'a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API.',
             img: (''),
-            github: 'https://github.com/CodyConck/Team-Profile-Generator',
-            deployed: 'https://drive.google.com/file/d/1OTRL2HgAlR27h5GKXHAFKVOf1DqCVLPD/view'
+            github: 'https://github.com/jwade4207.github.io/Book-Store/',
+            deployed: 'https://whispering-falls-78114.herokuapp.com/'
         },
-        {
-            name: 'Regex Tutorial',
-            description: 'In this tutorial, I will break down a Regular Expression/Regex that is used to match an email.',
-            img: (''),
-            github: 'https://gist.github.com/CodyConck/1798fe20b62c67902415ea64e055943c',
-            deployed: ''
-        }
     ]
     return (
         <Container fluid>
