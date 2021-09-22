@@ -1,6 +1,7 @@
 import { Container, Nav, Navbar } from 'react-bootstrap'
 //import logo from '';
-import React from 'react';
+import React from 'react'
+import suit from '../assets/thumbnail.jpg'
 
 function NavBar(props) {
     return (
@@ -9,7 +10,7 @@ function NavBar(props) {
                 <Navbar.Brand href="#home">
                     <img
                         alt=""
-                        src="https://media-exp1.licdn.com/dms/image/C5603AQForKoF0a0EnQ/profile-displayphoto-shrink_800_800/0/1585159973912?e=1635984000&v=beta&t=W4byoP7pZ7XCguLwyqcRoAM4KlPNQQBVbfd_c3XV_BM"
+                        src={suit}
                         width="50"
                         height="50"
                         className="d-inline-block align-top"
