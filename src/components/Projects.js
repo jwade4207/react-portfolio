@@ -43,6 +43,13 @@ function Projects() {
             github: 'https://github.com/jwade4207.github.io/Book-Store/',
             deployed: 'https://whispering-falls-78114.herokuapp.com/'
         },
+        {
+            name: 'One-Stop-Print-Shop',
+            description: 'Full Stack MERN E-commerce store with Stripe payment',
+            img: (''),
+            github: 'https://jwade4207.github.io/One-Stop-Print-Shop/',
+            deployed: 'https://one-stop-print-shop.herokuapp.com/'
+        }
     ]
     return (
         <Container fluid>
